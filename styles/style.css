@@ -98,14 +98,15 @@ nav{
 /* main-style */
 /* section-style */
 
-#section-box{
-    margin: 74px 152px 88px ;
-    /* border: 1px solid red; */
-}
 
 .section-container{
-    margin: 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 74px 152px 88px ;
     /* border: 1px solid red; */
+    padding: 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -132,13 +133,6 @@ nav{
     font-weight: 400;
     opacity: 0.7;
 }
-/* .section-box-container{
-    border: 1px solid red;
-} */
-
-/* .section{
-    border: 1px solid red;
-} */
 
 .section-intro{
     /* border: 1px solid red; */
@@ -148,7 +142,6 @@ nav{
 .section1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     /* border: 1px solid red; */
     margin: 0px 48px 48px;
     border-radius: 16px;
@@ -158,7 +151,6 @@ nav{
 .section2{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
     align-items: center;
     /* border: 1px solid red; */
     margin: 0px 48px 48px;
@@ -169,7 +161,6 @@ nav{
 .section3{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     /* border: 1px solid red; */
     margin: 0px 48px 48px;
     border-radius: 16px;
@@ -193,6 +184,7 @@ nav{
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
+    margin-top: 16px;
 }
 
 .section-btn{
@@ -204,7 +196,185 @@ nav{
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px;    
+    margin-top: 32px;
+    cursor: pointer;
 }
+
+.s1-int{
+    margin: 10px 99px 9.5px 0px;
+}
+
+.s1-img{
+    margin: 3px 13px 20px 0px;
+}
+
+.s2-int{
+    margin: 10px 100px 9px 0px;
+}
+
+.s2-img{
+    margin: 0px 48px 31px 0px;
+}
+
+.s3-int{
+    margin: 10px 150px 9px 0px;
+}
+
+.s3-img{
+    margin: 26px 16px 26px 0px;
+}
+/* iframe-section style */
+
+.iframe-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 88px 380px 151px;
+}
+
+.iframe-intro{
+    margin: 0px 144px 48px 144px;
+    text-align: center;
+}
+
+
+.iframe-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0px 0px 0px 24px;
+}
+
+.iframe-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 0px;
+}
+
+.iframe-container{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    margin: 0px;
+}
+
+.main-iframe{
+    margin: 32px;
+    border-radius: 16px;
+}
+
+/* card-box style */
+
+.card-box-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 97px 48px 97px;
+}
+
+.card-box-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.card-box-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px 8px 0px;
+}
+
+.card-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.card-1{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-right: 24px;
+}
+
+.card-2{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-right: 24px;
+}
+
+.card-3{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.card-img-1{
+    height: 56px;
+    width: 56px;
+    margin-right: 228px;
+}
+
+.card-img-2{
+    height: 56px;
+    width: 56px;
+    margin-right: 228px;
+}
+
+.card-img-3{
+    height: 56px;
+    width: 56px;
+    margin-right: 228px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
